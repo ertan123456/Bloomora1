@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+html, body {
+  font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+  background: #f7f9fc;
+  margin: 0;
+}
+
+
+h1 { font-size: 36px; font-weight: 700; color: #2b3a67; margin: 16px 0; }
+h2 { font-size: 28px; font-weight: 600; }
+h3 { font-size: 22px; font-weight: 600; }
+
+
+label { font-weight: 600; font-size: 14px; color: #333; }
+input, .Select__control, .dash-dropdown, .dash-input {
+  font-family: inherit !important;
+  font-size: 16px;
+}
+
+
+button, ._dash-loading {
+  font-family: inherit !important;
+}
+button {
+  background: #4b9cd3; border: none; color: #fff;
+  padding: 10px 16px; border-radius: 8px; cursor: pointer;
+  font-weight: 600; font-size: 15px;
+}
+button:hover { background: #3a8bc1; }
+
+/* 6) Status metni */
+#status { font-style: italic; color: #555; }
+
+/* 7) DataTable metin boyutu ve font */
+.dash-table-container, .dash-table-container * {
+  font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif !important;
+  font-size: 15px;
+}
